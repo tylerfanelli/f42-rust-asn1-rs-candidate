@@ -1,0 +1,11 @@
+[package]
+summary = "Rust parsers/encoders for ASN.1 BER/DER data"
+
+[features]
+hide = [
+    "bigint",
+    "bits",
+    "debug",
+    "serialize",
+    "trace"
+]
